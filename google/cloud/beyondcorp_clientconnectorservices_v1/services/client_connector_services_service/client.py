@@ -1375,9 +1375,11 @@ class ClientConnectorServicesServiceClient(
                 optionally specify a ``condition``, which is a logic
                 expression that further constrains the role binding
                 based on attributes about the request and/or target
-                resource. JSON Example.
+                resource.
 
-                .. code-block:: python
+                **JSON Example**
+
+                ::
 
                     {
                       "bindings": [
@@ -1421,6 +1423,7 @@ class ClientConnectorServicesServiceClient(
                         title: expirable access
                         description: Does not grant access after Sep 2020
                         expression: request.time < timestamp('2020-10-01T00:00:00.000Z')
+
 
                 For a description of IAM and its features, see the `IAM
                 developer's
@@ -1494,9 +1497,11 @@ class ClientConnectorServicesServiceClient(
                 optionally specify a ``condition``, which is a logic
                 expression that further constrains the role binding
                 based on attributes about the request and/or target
-                resource. JSON Example.
+                resource.
 
-                .. code-block:: python
+                **JSON Example**
+
+                ::
 
                     {
                       "bindings": [
@@ -1540,6 +1545,7 @@ class ClientConnectorServicesServiceClient(
                         title: expirable access
                         description: Does not grant access after Sep 2020
                         expression: request.time < timestamp('2020-10-01T00:00:00.000Z')
+
 
                 For a description of IAM and its features, see the `IAM
                 developer's
