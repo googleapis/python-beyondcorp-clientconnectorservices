@@ -21,22 +21,19 @@ __version__ = package_version.__version__
 
 
 from .services.client_connector_services_service import (
+    ClientConnectorServicesServiceAsyncClient,
     ClientConnectorServicesServiceClient,
 )
-from .services.client_connector_services_service import (
-    ClientConnectorServicesServiceAsyncClient,
-)
-
-from .types.client_connector_services_service import ClientConnectorService
 from .types.client_connector_services_service import (
+    ClientConnectorService,
     ClientConnectorServiceOperationMetadata,
+    CreateClientConnectorServiceRequest,
+    DeleteClientConnectorServiceRequest,
+    GetClientConnectorServiceRequest,
+    ListClientConnectorServicesRequest,
+    ListClientConnectorServicesResponse,
+    UpdateClientConnectorServiceRequest,
 )
-from .types.client_connector_services_service import CreateClientConnectorServiceRequest
-from .types.client_connector_services_service import DeleteClientConnectorServiceRequest
-from .types.client_connector_services_service import GetClientConnectorServiceRequest
-from .types.client_connector_services_service import ListClientConnectorServicesRequest
-from .types.client_connector_services_service import ListClientConnectorServicesResponse
-from .types.client_connector_services_service import UpdateClientConnectorServiceRequest
 
 __all__ = (
     "ClientConnectorServicesServiceAsyncClient",
